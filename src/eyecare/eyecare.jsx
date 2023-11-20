@@ -2,33 +2,16 @@ import React from 'react'
 import "./eyecare.css"
 import { AwesomeButton } from 'react-awesome-button';
 import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss';
-
+import Menubar from '../menubar/menubar.jsx'
 
 
 function eyecare() {
 
   return (
 	<div>
-		<div class="left-section">
-            <div class="service-name">BL!NK</div>
-            <div class="Auto-Bluelight">
-                <img class="button_img" src="/images/auto-bluelight-menu-btn.png"/>
-                <button class="Auto-Bluelight-Button">Auto BlueLight</button>
-               
-            </div>
-            <div class="Alarms">
-                <img class="button_img" src="/images/alarm-btn.png" />
-                <button class="Auto-Bluelight-Button">Alarms</button>
-               
-            </div>
-            <div class="data">
-                <img class="button_img" src="/images/data-btn.png" />
-                <button class="Auto-Bluelight-Button">Eye Data Care</button>
-               
-            </div>
-        </div>
-
 		
+        <Menubar/>
+
         <div class="right-section">
             <div class="level-zero">
                 <div class="right-box">
