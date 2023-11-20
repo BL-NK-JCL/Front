@@ -12,25 +12,19 @@ function eyecare() {
 		<div class="left-section">
             <div class="service-name">BL!NK</div>
             <div class="Auto-Bluelight">
-                <img class="button_img" src="../images/auto-bluelight-menu-btn.png"/>
-                <AwesomeButton cssModule={AwesomeButtonStyles}>
-                    Auto BlueLight
-                </AwesomeButton>
-            
+                <img class="button_img" src="/images/auto-bluelight-menu-btn.png"/>
+                <button class="Auto-Bluelight-Button">Auto BlueLight</button>
+               
             </div>
             <div class="Alarms">
-                <img class="button_img" src="../images/alarm-btn.png" />
-                {/* <button class="Auto-Bluelight-Button">Alarms</button> */}
-                <AwesomeButton cssModule={AwesomeButtonStyles}>
-                    Alarms
-                </AwesomeButton>
+                <img class="button_img" src="/images/alarm-btn.png" />
+                <button class="Auto-Bluelight-Button">Alarms</button>
+               
             </div>
             <div class="data">
-                <img class="button_img" src="../images/data-btn.png" />
-                {/* <button class="Auto-Bluelight-Button">Eye Data Care</button> */}
-                <AwesomeButton cssModule={AwesomeButtonStyles}>
-                Eye Data Care
-                </AwesomeButton>
+                <img class="button_img" src="/images/data-btn.png" />
+                <button class="Auto-Bluelight-Button">Eye Data Care</button>
+               
             </div>
         </div>
 
@@ -39,7 +33,7 @@ function eyecare() {
             <div class="level-zero">
                 <div class="right-box">
                     <button class="back-btn">
-                        <img class="back-btn-img" />
+                        <img class="back-btn-img" src='/images/backButton.png' />
                     </button> 
                     
                     <div class="main-text">

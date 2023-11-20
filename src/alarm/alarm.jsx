@@ -23,7 +23,7 @@ function alarm() {
             <div class="level-zero">
                 <div class="right-box">
                     <button class="back-btn">
-                        <img class="back-btn-img" />
+                        <img class="back-btn-img" src='/images/backButton.png'/>
                     </button>
                     <div class="main-text">
                         <div class="eng-main-text">Alarm</div>
