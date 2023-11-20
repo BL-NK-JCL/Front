@@ -1,21 +1,36 @@
 import React from 'react'
+import "./eyecare.css"
+import { AwesomeButton } from 'react-awesome-button';
+import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss';
+
+
 
 function eyecare() {
+
   return (
 	<div>
 		<div class="left-section">
             <div class="service-name">BL!NK</div>
             <div class="Auto-Bluelight">
                 <img class="button_img" src="../images/auto-bluelight-menu-btn.png"/>
-                <button class="Auto-Bluelight-Button">Auto BlueLight</button>
+                <AwesomeButton cssModule={AwesomeButtonStyles}>
+                    Auto BlueLight
+                </AwesomeButton>
+            
             </div>
             <div class="Alarms">
                 <img class="button_img" src="../images/alarm-btn.png" />
-                <button class="Auto-Bluelight-Button">Alarms</button>
+                {/* <button class="Auto-Bluelight-Button">Alarms</button> */}
+                <AwesomeButton cssModule={AwesomeButtonStyles}>
+                    Alarms
+                </AwesomeButton>
             </div>
             <div class="data">
                 <img class="button_img" src="../images/data-btn.png" />
-                <button class="Auto-Bluelight-Button">Eye Data Care</button>
+                {/* <button class="Auto-Bluelight-Button">Eye Data Care</button> */}
+                <AwesomeButton cssModule={AwesomeButtonStyles}>
+                Eye Data Care
+                </AwesomeButton>
             </div>
         </div>
 
@@ -25,7 +40,8 @@ function eyecare() {
                 <div class="right-box">
                     <button class="back-btn">
                         <img class="back-btn-img" />
-                    </button>
+                    </button> 
+                    
                     <div class="main-text">
                         <div class="eng-main-text">BL!nk Data</div>
                         <div class="kor-main-text">사용자 눈 건강 데이터</div>
